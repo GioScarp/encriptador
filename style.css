@@ -1,0 +1,28 @@
+main{
+    width: 70%;
+    background: green;
+    margin: 0 auto;
+}
+
+.contenedor-izq{
+    display: inline-block;
+    background: black;
+    border-radius: 15px;
+    width: 66%;
+    color: aliceblue;
+    margin: 0 2%;
+}
+
+.input-text{
+    display: block;
+    width: 70%;
+    margin: 3rem auto;
+
+}
+
+.contenedor-der{
+    display: inline-block;
+    background: red;
+    border-radius: 15px;
+    width: 28%;
+}
