@@ -1,28 +1,73 @@
+img{
+    width: 8%;
+}
+
 main{
+    display: flex;
     width: 70%;
-    background: green;
+
     margin: 0 auto;
 }
 
 .contenedor-izq{
     display: inline-block;
-    background: black;
-    border-radius: 15px;
+    background: #038cfb;
+    border-radius: 55px;
     width: 66%;
+    height: 600px;
     color: aliceblue;
     margin: 0 2%;
 }
 
 .input-text{
     display: block;
-    width: 70%;
-    margin: 3rem auto;
+    width: 80%;
+    height: 55%;
+    font-size: 20px;
+    margin: 5rem auto;
+    margin-bottom: 3rem;
+    resize: none;
+    border-style: none;
+    outline: none;
+    background: #b3c0ca;
+
+}
+
+.botones{
+    display: flex;
+    width: 80%;
+    background: rebeccapurple;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+.botones input{
+    display: inline-block;
+    width: 40%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 50px;
+    border-width: 1px;
 
 }
 
 .contenedor-der{
     display: inline-block;
     background: red;
-    border-radius: 15px;
+    border-radius: 55px;
     width: 28%;
+    height: 600px;
+}
+
+.output-text{
+    display: block;
+    width: 75%;
+    height: 55%;
+    font-size: 20px;
+    margin: 5rem auto;
+    resize: none;
+    border-style: none;
+    outline: none;
+    background: #b3c0ca;
+
 }
