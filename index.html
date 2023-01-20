@@ -6,31 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
     <title>Encriptador</title>
 </head>
 <body>
     <head>
-        <img src="/images/Logo_Encrip.png"> 
+        <h1>Logo here</h1>
     </head>
     <main>
-        <div class="contenedor-izq">
+        <section class="contenedor-izq">
             <textarea class="input-text" cols="50" rows="10" placeholder="Ingrese el texto aquí" required></textarea>
-            <div class="botones">
-                <input type="button" value="ENCRIPTAR">
-                <input type="button" value="DESENCRIPTAR">
+            <div class="botones-izq">
+                <input class="b-encriptar" type="button" value="ENCRIPTAR">
+                <input class="b-desencriptar" type="button" value="DESENCRIPTAR">
             </div>
-            <p>Texto informativo</p>
-        </div>
-        <div class="contenedor-der">
-            <textarea class="output-text"></textarea>
-            <div>
-                <input type="button" value="copiar">
+            <p class="titulo-centrado">🛈 Solo letras minúsculas y sin acentos</p>
+        </section>
+        <section class="contenedor-der">
+            <div class="contenedor-texto">
+                <textarea class="output-text" cols="50" rows="10"></textarea>
+                <img class="imagen-muneco" src="/images/Muñeco.png" alt="muñeco">
+                <p class="texto1">Ningún mensaje fue encontrado.<span class="texto2"><br><br>Ingresa el texto que deseas encriptar o desencriptar.</span></p>
+
             </div>
-        </div>
+            <div class="botones-der">
+                <input class="b-copiar" type="button" value="COPIAR">
+            </div>
+        </section>
     </main>
     <footer>
         <div>
-            <p class="copyright">Copyright © 2023 | Coded with by <span style="color: aqua;"> We3do</span> </p>
+            <p class="copyright">Copyright © 2023 | Coded with by <span style="color: aqua;"> Giovanni Scarpetta</span> </p>
         </div>
     </footer>
     
