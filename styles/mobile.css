@@ -31,7 +31,7 @@ main{
     height: auto;
 }
 
-button{
+.myButton{
     margin: 3px auto;
 }
 

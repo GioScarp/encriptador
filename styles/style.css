@@ -48,7 +48,7 @@ main{
     margin-bottom: 2rem;
 }
 
-button{
+.myButton{
     display: inline-block;
     margin: 10px auto;
     padding: 10px;
@@ -68,22 +68,21 @@ button{
     color: #FAF8F0;
 }
 
-button:hover,
-button:focus{
+.myButton:hover{
     transform:  scale(1.05);
-  -webkit-animation: button 1s;
-          animation: button 1s;
+  -webkit-animation: myButton 1s;
+          animation: myButton 1s;
   box-shadow: 0 0 0 .7em rgba(0, 255, 76, 0);
 }
 
 
-@-webkit-keyframes button {
+@-webkit-keyframes myButton {
   0% {
     box-shadow: 0 0 0 0 var(--hover);
   }
 }
 
-@keyframes button {
+@keyframes myButton {
   0% {
     box-shadow: 0 0 0 0 var(--hover);
   }

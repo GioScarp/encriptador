@@ -80,7 +80,6 @@ function notFound(){
 
 function notify(jsonData){
     Swal.fire({
-        width : 500,
         title: jsonData.title,
         text: jsonData.text,
         icon: jsonData.icon,
