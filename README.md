@@ -10,6 +10,7 @@ Link del proyecto al final 👇
 ![App Encriptador](https://github.com/GioScarp/encriptador/blob/main/images/Encriptador.png)
 
 ---
+
 **Challenge / Problema:**
 Crear una aplicación que encripte textos, para poder intercambiar mensajes secretos con otras personas que sepan el secreto de la encriptación utilizada.
 
