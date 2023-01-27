@@ -17,7 +17,7 @@ function btnEncrypt(){
     if(textToEncrypt == null){
         notify({
             title : "Oops!",
-            text : "Solo se permiten letras minusculas y sin acento",
+            text : "Verifica que el campo de texto no esté vacio y que tenga solo letras minusculas y sin acento",
             icon : "error",
             color : 'red',
         })
@@ -40,7 +40,7 @@ function btnDecrypt(){
     if(textToEncrypt == null){
         notify({
             title : "Oops!",
-            text : "Solo se permiten letras minusculas y sin acento",
+            text : "Verifica que el campo de texto no esté vacio y que tenga solo letras minusculas y sin acento",
             icon : "error",
             color : 'red',
         })
