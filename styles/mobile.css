@@ -1,0 +1,73 @@
+main{
+    width: 85%;
+    margin: 1em auto;
+    height: auto;
+    flex-direction: column;
+}
+
+.contenedor-izq{
+    width: 95%;
+    height: 350px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.input-text{
+    width: 85%;
+    margin: 1.5em auto .5em auto;
+    height: 45%;
+}
+
+.contenedor-izq button{
+    width: 90%;
+}
+
+.botones-izq{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+button{
+    margin: 3px auto;
+}
+
+.botones-izq, .botones-der{
+    margin-bottom: 1rem;
+}
+
+.contenedor-der{
+    width: 95%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    margin: 1em auto;
+}
+
+.contenedor-texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    height: auto;
+    margin: 1.5rem auto;
+    margin-bottom: 1rem;
+}
+
+.output-text{
+    margin: 1rem auto;
+    margin-bottom: .5rem;
+}
+
+.imagen-muneco{
+    width: 140px;
+    margin-bottom: 1.5em;
+}
+
+.botones-der button{
+    width: 100%;
+}

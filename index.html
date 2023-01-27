@@ -4,29 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Encriptador de Texto - Proyecto ONE: Oracle Next Education">
     <!-- Hojas de estilo -->
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/mobile.css" media="screen and (max-width: 760px)">
+    <link rel="stylesheet" href="./styles/desktop.css" media="screen and (max-width: 1350px)">
 
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
 
     <!-- Fuentes -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
     
+    <!-- Libreria de animaciones-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
     <!-- Librería de alertar -->
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
 
-    <title>Encriptador</title>
+    <title>Encriptador de texto</title>
 </head>
 <body>
     <head>
-        <h1>Logo here</h1>
+        
     </head>
     <main>
         <section class="contenedor-izq">
             <textarea id="miTextArea" class="input-text" cols="50" rows="10" placeholder="Ingrese el texto aquí" required></textarea>
             <div class="botones-izq">
-                <input class="b-encriptar" onclick="btnEncrypt()" type="button" value="ENCRIPTAR">
-                <input class="b-desencriptar" onclick="btnDecrypt()" type="button" value="DESENCRIPTAR">
+                <button class="b-encriptar" onclick="btnEncrypt()">ENCRIPTAR</button>
+                <button class="b-desencriptar" onclick="btnDecrypt()">DESENCRIPTAR</button>
             </div>
             <p class="titulo-centrado">🛈 Solo letras minúsculas y sin acentos</p>
         </section>
@@ -38,13 +47,18 @@
 
             </div>
             <div class="botones-der">
-                <input class="b-copiar" onclick="copiar()" type="button" value="COPIAR">
+                <button class="b-copiar" onclick="copiar()">COPIAR</button>
             </div>
         </section>
     </main>
     <footer>
         <div>
-            <p class="copyright">Copyright © 2023 | Coded with by <span style="color: aqua;"> Giovanni Scarpetta</span> </p>
+            <p class="copyright">Copyright © 2023 | Coded with
+                <span><img class="icon-heart" src="images/icon-heart.png" alt="heart"></span> 
+                by <span style="color: #18A4E0;"> Giovanni Scarpetta</span> |
+                <a href="https://www.linkedin.com/in/giovanni-scarpetta/" target="_blank"><img class="icon-linkedin" src="images/icon-linkedin.png" alt="linkedIn"></a>
+                <a href="https://github.com/GioScarp" target="_blank"><img class="icon-github" src="/images/icon-github.png" alt="GitHub"></a> 
+            </p>
         </div>
     </footer>
     <script src="/script.js"></script>

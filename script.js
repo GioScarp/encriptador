@@ -19,6 +19,7 @@ function btnEncrypt(){
             title : "Oops!",
             text : "Solo se permiten letras minusculas y sin acento",
             icon : "error",
+            color : 'red',
         })
         return null;
     }
@@ -41,6 +42,7 @@ function btnDecrypt(){
             title : "Oops!",
             text : "Solo se permiten letras minusculas y sin acento",
             icon : "error",
+            color : 'red',
         })
         return null;
     }
@@ -78,12 +80,14 @@ function notFound(){
 
 function notify(jsonData){
     Swal.fire({
+        width : 500,
         title: jsonData.title,
         text: jsonData.text,
         icon: jsonData.icon,
-        iconColor: '#b9ab9c',
-        background: '#E3E0DE',
-        confirmButtonColor: '#b9ab9c',
+        color: '#043353',
+        iconColor: jsonData.color,
+        background: '#e4eff7',
+        confirmButtonColor: '#18A4E0',
       });    
 }
 
@@ -98,6 +102,7 @@ function copiar(){
     title : "Perfecto!",
     text : "Se ha copiado el texto correctamente",
     icon : "success",
+    color : '#18A4E0',
 })
 }
 

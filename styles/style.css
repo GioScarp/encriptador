@@ -1,11 +1,12 @@
 body{
     font-family: 'Poppins', sans-serif;
+    background: #e4eff7;
 }
 
 main{
     display: flex;
     width: 60%;
-    margin: 1em auto;
+    margin: 6em auto;
 }
 
 .contenedor-izq{
@@ -47,18 +48,18 @@ main{
     margin-bottom: 2rem;
 }
 
-input{
+button{
     display: inline-block;
     margin: 10px auto;
     padding: 10px;
+    width: 40%;
     border-radius: 50px;
     border-width: 1px;
     letter-spacing: 3px;
     text-align: center;
-}
-
-.botones-izq input{
-    width: 40%;
+    --hover: #5cb4f3;
+    transition: 1s transform;
+    box-shadow: 0 0 0 .1em rgba(0, 0, 0, 0.1);
 }
 
 .b-encriptar{
@@ -67,8 +68,29 @@ input{
     color: #FAF8F0;
 }
 
+button:hover,
+button:focus{
+    transform:  scale(1.05);
+  -webkit-animation: button 1s;
+          animation: button 1s;
+  box-shadow: 0 0 0 .7em rgba(0, 255, 76, 0);
+}
+
+
+@-webkit-keyframes button {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+
+@keyframes button {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+
 .b-desencriptar{
-    background: #D3DDE6;
+    background: #18A4E0;
     border: 1px solid rgb(122, 121, 117);
     color: #FAF8F0;
 }
@@ -94,8 +116,8 @@ input{
 
 .contenedor-texto p{
     text-align: center;
+    color: #043353;
 }
-
 
 .output-text{
     display: none;
@@ -127,12 +149,28 @@ input{
 }
 
 .b-copiar{
-    background: #18A4E0;
+    background: #a5d4fdbf;
     border: 1px solid rgb(122, 121, 117);
     color: #043353;
 }
 
-.botones-der input{
+.botones-der button{
     width: 80%;
 }
 
+.copyright{
+    text-align: center;
+    font-size: 13px;
+}
+
+.icon-heart{
+    width: .8rem;
+}
+
+.icon-linkedin{
+    width: 1.2rem;
+}
+
+.icon-github{
+    width: 1.2rem;
+}
