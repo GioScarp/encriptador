@@ -1,13 +1,11 @@
 # Encriptador de Texto | Challenge ONE - Oracle Next Education
 ---
 
-Link del proyecto al final 👇
+![App Encriptador](https://github.com/GioScarp/encriptador/blob/main/images/Encriptador.png)
 
 ---
 
-**Visualiación:**  
-  
-![App Encriptador](https://github.com/GioScarp/encriptador/blob/main/images/Encriptador.png)
+Link del proyecto al final 👇
 
 ---
 
@@ -42,5 +40,5 @@ Las "llaves" de encriptación que se deben utilizar son las siguiente:
 
 ---
 
-[**Ir a la página** ✌]()
+[**Ir a la página** 👈](https://gioscarp.github.io/encriptador/)
 ---
