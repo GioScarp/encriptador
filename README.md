@@ -4,6 +4,12 @@
 Link del proyecto al final 👇
 
 ---
+
+**Visualiación:**  
+  
+![App Encriptador](https://github.com/GioScarp/encriptador/blob/main/images/Encriptador.png)
+
+---
 **Challenge / Problema:**
 Crear una aplicación que encripte textos, para poder intercambiar mensajes secretos con otras personas que sepan el secreto de la encriptación utilizada.
 
@@ -35,17 +41,5 @@ Las "llaves" de encriptación que se deben utilizar son las siguiente:
 
 ---
 
-**Visualiación:**  
-  
-![App Encriptador]()
-
-
----
-
 [**Ir a la página** ✌]()
 ---
-
-
-sacar imagen para colocarla
-cambiar icono del lilk al final
-colocar link de la pagina ya montada
